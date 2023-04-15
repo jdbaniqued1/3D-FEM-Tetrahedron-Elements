@@ -1,7 +1,7 @@
 Matrix Conjugate_Gradient(Matrix A, Matrix b)
 {
     int m, n = A.row, temp, i, j, mmax;
-    mmax = 1000;
+    mmax = 10000;
     double e, a, B;
     e = 0.0001;
 
@@ -15,7 +15,7 @@ Matrix Conjugate_Gradient(Matrix A, Matrix b)
 
     for (i=0; i<n; i++)
     {
-        x.mat[i][0] = 1;
+        x.mat[i][0] = 0.3;
     }
 
     //Step 1
