@@ -1,0 +1,30 @@
+nodes	8				
+ID	x	y	z		
+1	0	1	0		
+2	0	0	0		
+3	2	0.5	0		
+4	2	1	0		
+5	0	1	1		
+6	0	0	1
+7	2	0.5	1
+8	2	1	1
+members	1					
+ID	E	v	NodeA	NodeB	NodeC	NodeD	NodeE	NodeF	NodeG	NodeH	
+1	200	0.3	1	2	3	4	5	6	7	8
+BC	9				
+node 	direction	value
+1	1		0
+1	2		0
+1	3		0
+2	1		0
+2	2		0
+2	3		0
+5	1		0
+5	2		0
+5	3		0				
+Loads	4
+Node	Direction	Value
+1	2		-0.00002
+4	2		-0.00002
+5	2		-0.00002
+8	2		-0.00002
